@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+
+    background-image: url('/public/colores.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 20h;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    font-size: 2em;
+    position: fixed;
+    top: 40%;
+    left: 30%;
+    transform: translate(180%, -100%);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.lorem {
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    width: 60%;
+    max-width: 600px;
+    margin: auto;
+    text-align: justify;
+    transform: translate(50%, 10%);
+}
+
+.dulcerias img {
+    transform: translate(120px, 220px);
+    width: 500px;
+    height: 300px;
+}
+
+.marco {
+    text-align: center;
+    margin-top: 20h;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    font-size: 350%;
+    position: fixed;
+    top: 40%;
+    left: 30%;
+    transform: translate(20%, -300%);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.boton{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffcccb;
+    color: rgb(47, 47, 47);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    transform: translate(850%, 120%);
+}
