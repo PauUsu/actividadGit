@@ -1,0 +1,82 @@
+/* Reset de estilos para eliminar márgenes y rellenos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #ffcccb;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.servicios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(239px, 1fr));
+    gap: 28px;
+}
+
+
+.servicio {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.servicio img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        bottom: 0;
+        width: 100%;
+
+}
+
+.name{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #df2acc;
+}
+
+.productos{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
