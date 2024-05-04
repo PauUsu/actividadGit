@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f8f8;
@@ -7,6 +13,18 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+header {
+    background-color: #ffcccb;
+    padding: 10px;
+}
+
+.name{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #df2acc;
+}
+
 
 .titulo {
     text-align: center;
@@ -25,6 +43,25 @@ body {
     text-align: center;
 }
 
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    margin-top: 14px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
 .lorem {
     text-align: center;
     line-height: 1.5;
@@ -41,10 +78,11 @@ body {
     transform: translate(50%, 10%);
 }
 
-.dulcerias img {
-    transform: translate(120px, 220px);
-    width: 500px;
+img {
+    align-items: center;
     height: 300px;
+    display: flex;
+    border: 1px solid black;
 }
 
 .marco {
@@ -65,14 +103,23 @@ body {
 }
 
 .boton{
-    padding: 10px 20px;
-    font-size: 16px;
     background-color: #ffcccb;
-    color: rgb(47, 47, 47);
+    color: #333;
     border: none;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s, box-shadow 0.3s;
+    padding: 10px 20px;
     cursor: pointer;
-    transform: translate(850%, 120%);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.section{
+    margin-bottom: 20px;
 }
